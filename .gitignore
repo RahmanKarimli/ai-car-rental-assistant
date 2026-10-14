@@ -1,0 +1,17 @@
+.env*
+!.env.example
+.secrets/*
+!.secrets/.gitkeep
+.agents/
+skills-lock.json
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.next/
+*.tsbuildinfo
+.DS_Store
+data/assets/*
+!data/assets/vehicles/
+!data/assets/policies/
+!**/.gitkeep
