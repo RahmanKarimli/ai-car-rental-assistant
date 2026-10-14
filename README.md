@@ -38,10 +38,9 @@ Setup order:
 5. Create pickup branches, then real vehicles referencing branch and rate-plan IDs; upload their photos.
 6. Add bilingual extras, correct stock quantities, and eligibility rules as needed.
 
-The default startup does not seed any catalog records. The catalog examples remain empty templates. For local exploration, the repository includes a small explicit demo dataset:
+The default startup does not seed any catalog records. The catalog examples remain empty templates. For local exploration, the repository includes a small explicit demo dataset. Create the first operator as described above before seeding:
 
 ```sh
-docker compose exec api python scripts/bootstrap_admin.py
 docker compose exec api python scripts/seed_demo.py
 ```
 
